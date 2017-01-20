@@ -1,3 +1,4 @@
+
 var Sequelize = require('sequelize');
 var sequelize = new Sequelize(undefined, undefined, undefined, {
     'dialect': 'sqlite',
@@ -45,7 +46,7 @@ sequelize.sync({
 //              description: {
 //                 $like: '%Office%'
 //             }
-//         }  
+//         }   
 //       });
 //   }).then(function (todos) {
 //       if (todos) {
